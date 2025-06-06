@@ -1,0 +1,26 @@
+[
+  {
+    "model_name": "rinna/japanese-gpt2-small",
+    "model_type": "gpt",
+    "task": "テキスト生成（自己回帰型）",
+    "description": "次の単語を予測する自己回帰モデル",
+    "load_time": 1.8251969814300537,
+    "inference_time": 1.0509860515594482,
+    "memory_usage": 547.1875,
+    "parameter_count": 110418432,
+    "input": "人工知能は将来、どのように社会を変えるでしょうか？",
+    "output": "人工知能は将来、どのように社会を変えるでしょうか?人工知能"
+  },
+  {
+    "model_name": "sonoisa/t5-base-japanese",
+    "model_type": "t5",
+    "task": "シーケンス変換",
+    "description": "入力テキストを出力テキストに変換するエンコーダー・デコーダーモデル",
+    "load_time": 197.3708848953247,
+    "inference_time": 2.8012993335723877,
+    "memory_usage": 929.96875,
+    "parameter_count": 222903552,
+    "input": "人工知能は将来、どのように社会を変えるでしょうか？",
+    "output": "人工知能は未来を変えるのでしょうか??????????????????????????????????????????"
+  }
+]
